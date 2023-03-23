@@ -1,8 +1,7 @@
 /*  your css code here. If applicable */
 *{
-	padding : 0px;
-	border : 0px;
-	margin : 0px;
+	display : flex;
+	
 }
 .container{
 
@@ -10,18 +9,26 @@
 	background-color : rgb(211,211,210);
 	border : 3px solid black;
 	width : 300px;
-	border-radius : 50px;
+	height : 90px;
+	border-radius : 50px
 }
 .red{
+/* 	marging : 10px; */
 	background-color : red;
-	width : 70px;
-	height : 70px;
+	width : 90px;
+	height : 90px;
 	border-radius : 50px
 	
 }
 .yellow{
-	background-color : red;
-	width : 70px;
-	height : 70px;
+	background-color : yellow;
+	width : 90px;
+	height : 90px;
+	border-radius : 50px;
+}
+.green{
+	background-color : green;
+	width : 90px;
+	height : 90px;
 	border-radius : 50px;
 }
